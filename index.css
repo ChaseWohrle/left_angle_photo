@@ -5,3 +5,18 @@
 body {
     background-color: darkgray;
 }
+
+#social-icons {
+    width: 25%;
+    height: 25%;
+}
+
+#contact-message {
+    height: 250px;
+    width: 250px;
+}
+
+#main-slideshow {
+    display: none;
+    width: 100%;
+}
