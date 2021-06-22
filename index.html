@@ -7,6 +7,9 @@
     <title>Left Angle Photo</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-v3.js"></script>
+    <script src="./PhotoViewer.js"></script>
+    <script>listAlbums();</script>
   </head>
   <body>
       <header>
@@ -14,17 +17,17 @@
           <!--Add link to home -->
         <nav>
           <ul> 
-            <li><a href='#places'>Places</a></li>
-            <li><a href='#faces'>Faces</a></li>
-            <li><a href='#art'>Art</a></li>
-            <li><a href='#transportation'>Transportation</a></li>
-            <li><a href='#food'>Food</a></li>
-            <li><a href='#contact'>Contact</a></li>
+            <li><a href='places-gallery.html'>Places</a></li>
+            <li><a href='faces-gallery.html'>Faces</a></li>
+            <li><a href='art-gallery.html'>Art</a></li>
+            <li><a href='transportation-gallery.html'>Transportation</a></li>
+            <li><a href='food-gallery.html'>Food</a></li>
+            <li><a href='contact.html'>Contact</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <div class='slideshow'>
+        <div id='viewer'>
           <img id='main-slideshow' src='' name='slide' width='400' height='200'>
         </div>
         <section id='perspective'>
@@ -46,10 +49,10 @@
         </section>
       </main>
       <footer>
-        <aside>
+        <section id='footer'>
           <!--Add links of socials/linkedIn -->
           <p>Copyright 2021© Chase Wohrle</p>
-        </aside>
+        </section>
       </footer>
       <script src='jquery-3.5.1.min.js'></script>
       <script src='index.js'></script>
