@@ -10,35 +10,46 @@
   </head>
   <body>
     <header>
-        <h1 id='heading'>Left Angle Photo</h1>
-        <!--Add link to home, also donate/paypal, subscription sign-up -->
+      <nav id='navbar'> 
+        <a class='navbar-active' href='index.html'>Home</a>
+        <a href='places-gallery.html'>Places</a>
+        <a href='faces-gallery.html'>Faces</a>
+        <a href='art-gallery.html'>Art</a>
+        <a href='transportation-gallery.html'>Transportation</a>
+        <a href='food-gallery.html'>Food</a>
+        <a href='contact.html'>Contact</a>
+      </nav>
+      <h1 id='heading'>Left Angle Photo</h1>
+        <!--Add link to home, also donate/paypal, subscription sign-up (maybe create Services page with priced options), -->
     </header>
     <main>
         <h2>Contact</h2>
         <h4>Reach out directly through the Email form below or via Twitter or Instagram</h4>
         <br>
         <h3>We love mail!</h3>
-        <form id='contact-form'>
-          <label for='first-name'>First Name:</label><br>
-          <input type='text' id='first-name' name='first-name' required><br>
-          <label for='last-name'>Last Name:</label><br>
-          <input type='text' id='last-name' name='last-name' required><br>
-          <label for='email'>Email Address:</label><br>
-          <input type='text' id='email' name='email' required><br>
-          <label for='subject'>Subject:</label><br>
-          <input type='text' id='subject' name='subject' required><br>
-          <label for='message'>Message:</label><br>
-          <input type='text' id='contact-message' name='message' required><br>
-          <input type='submit' value='Send'>
-        </form>
+        <div class=contact-img>
+          <form class='contact-form'>
+            <label for='first-name'>First Name:</label><br>
+            <input type='text' id='first-name' name='first-name' required><br>
+            <label for='last-name'>Last Name:</label><br>
+            <input type='text' id='last-name' name='last-name' required><br>
+            <label for='email'>Email Address:</label><br>
+            <input type='text' id='email' name='email' required><br>
+            <label for='subject'>Subject:</label><br>
+            <input type='text' id='subject' name='subject' required><br>
+            <label for='message'>Message:</label><br>
+            <input type='text' id='contact-message' name='message' required><br>
+            <input type='submit' value='Send'>
+          </form>
+        </div>
         <br>
-        <div id='social-icons'>
+        <div >
         <a href='https://www.instagram.com/leftanglephoto/' target='_blank'>
-        <img src='insta-icon.png' alt='instagram icon'>
+        <img class='social-icons' src='insta-icon.png' alt='instagram icon'>
         </a>
         <br>
         <a href='https://twitter.com/leftanglephoto' target="_blank "> 
-        <img src='twitter-icon.png' alt='twitter-icon'> 
+        <img class='social-icons' src='twitter-icon.png' alt='twitter-icon'> 
         </a>
         </div>
     </main>

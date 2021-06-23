@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Left Angle Photo</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+    <!--Add shortcut/favicon link -->
     <script src="https://sdk.amazonaws.com/js/aws-sdk-v3.js"></script>
     <script src="./PhotoViewer.js"></script>
     <script>listAlbums();</script>
   </head>
   <body>
       <header>
-          <h1 id='heading'>Left Angle Photo</h1>
-          <!--Add link to home -->
-        <nav>
-          <ul> 
-            <li><a href='places-gallery.html'>Places</a></li>
-            <li><a href='faces-gallery.html'>Faces</a></li>
-            <li><a href='art-gallery.html'>Art</a></li>
-            <li><a href='transportation-gallery.html'>Transportation</a></li>
-            <li><a href='food-gallery.html'>Food</a></li>
-            <li><a href='contact.html'>Contact</a></li>
-          </ul>
-        </nav>
+          <nav id='navbar'> 
+            <a class='navbar-active' href='index.html'>Home</a>
+            <a href='places-gallery.html'>Places</a>
+            <a href='faces-gallery.html'>Faces</a>
+            <a href='art-gallery.html'>Art</a>
+            <a href='transportation-gallery.html'>Transportation</a>
+            <a href='food-gallery.html'>Food</a>
+            <a href='contact.html'>Contact</a>
+          </nav>
+        <h1 id='heading'>Left Angle Photo</h1>
       </header>
       <main>
         <div id='viewer'>
@@ -54,7 +52,7 @@
           <p>Copyright 2021© Chase Wohrle</p>
         </section>
       </footer>
-      <script src='jquery-3.5.1.min.js'></script>
+      <!-- Add jQuery script Below  -->
       <script src='index.js'></script>
   </body>
 </html>
