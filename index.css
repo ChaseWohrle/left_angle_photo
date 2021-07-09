@@ -11,21 +11,28 @@ header {
 
 }
 
-.social-icons {
-    width: 100px;
-    height: 200px;
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+    font-size: 34px;
+    text-align: center;
 }
 
+h2 {
+    font-size: 28px;
+}
 
+h3 {
+    font-size: 22px; 
+}
 
+h4 {
+    font-size: 18px;
+}
 
+p {
+    font-size: 14px;
+}
 
 /* NAVBAR */
-
 
 /* Style the navbar */
 #navbar {
@@ -41,9 +48,7 @@ header {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-  }
-  
-  
+  }  
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
@@ -61,51 +66,23 @@ header {
   .sticky + .content {
     padding-top: 60px;
   }
-
-/*
-.nav {
-    background-color: #333;
-    position: sticky;
-    overflow: hidden;
-}
-
-.nav a {
-    color: #f2f2f2;
-    display: block;
-    float:left;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.nav a.navbar-active {
-    background-color: #04AA6D;
-    color: white;
-}
-*/
-
-/* Contact Image */
+  
+/* Contact Page */
 .contact-img {
     background-image: url('form-background.jpeg');
 
     /* Control the height of the image */
-  min-height: 380px;
+    min-height: 380px;
 
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #333;
+    border-radius: 10%;
 }
 
-
 .contact-form {
-    position: relative;
     margin: 20px;
     max-width: 300px;
     padding: 16px;
@@ -119,3 +96,35 @@ header {
 #main-slideshow {
     width: 100%;
 }
+
+.social-icons {
+    width: 75px;
+    height: 100px;
+}
+
+#ig-icon {
+    margin-left: 25%;
+}
+
+#twitter-icon {
+    margin-right: 25%;
+}
+
+/*
+align-items: center;
+width: 75px;
+    height: 100px;
+
+#ig-icon {
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 18%;
+}
+
+#twitter-icon {
+    float: right; 
+    margin-right: 30%;
+    margin-bottom: 20%;
+}
+*/
+
